@@ -15,7 +15,7 @@ const { isMobile } = useBasicLayout()
 const collapsed = computed(() => appStore.siderCollapsed)
 
 function handleAdd() {
-  chatStore.addHistory({ title: '新对话[正在提问]', uuid: Date.now(), isEdit: false })
+  chatStore.addHistory({ title: 'New Chat', uuid: Date.now(), isEdit: false })
 }
 
 function handleUpdateCollapsed() {
@@ -69,8 +69,12 @@ watch(
       <main class="flex flex-col flex-1 min-h-0">
         <div class="p-4">
           <NButton dashed block @click="handleAdd">
-            新建对话
+            <strong>新建一个对话🔊</strong>
           </NButton>
+	          <p>下面是每个会话记录。</p>
+	          <p>每一个会话可以点击右边的[🖊]编辑会话名字。然后点击右边的[💾]保存。</p>
+	          <p></p>
+	          <p>每一个会话可以点击右边的[🗑]即可删除。</p>
         </div>
         <div class="flex-1 min-h-0 pb-4 overflow-hidden">
           <List />
