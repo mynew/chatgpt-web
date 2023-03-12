@@ -77,13 +77,14 @@ watch(
 	          <p>每一个会话可以点击右边的[🖊]编辑会话名字。然后点击右边的[💾]保存。</p>
 	          <p></p>
 	          <p>每一个会话可以点击右边的[🗑]即可删除。</p>
+		  <p>【对话模型仓库】可以让机器人扮演某个角色。</p>
         </div>
         <div class="flex-1 min-h-0 pb-4 overflow-hidden">
           <List />
         </div>
         <div class="p-4">
           <NButton block @click="show = true">
-            对话模型仓库
+            <strong>对话模型仓库🔊</strong>
           </NButton>
         </div>
       </main>
