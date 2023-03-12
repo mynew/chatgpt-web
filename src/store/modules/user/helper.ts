@@ -17,7 +17,7 @@ export function defaultSetting(): UserState {
     userInfo: {
       avatar: 'https://raw.githubusercontent.com/mynew/chatgpt-web/main/src/assets/avatar.jpg',
       name: 'Open AI',
-      description: 'Star on <a href="https://chat.openai.com" class="text-blue-500" target="_blank" >Github</a>',
+      description: 'Star on <a href="https://chat.openai.com" class="text-blue-500" target="_blank" >OpenAI</a>',
     },
   }
 }
