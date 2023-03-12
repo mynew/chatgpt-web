@@ -374,7 +374,13 @@ const dataSource = computed(() => {
           <NTabPane name="download" :tab="$t('store.online')">
             <p class="mb-4">
               {{ $t('store.onlineImportWarning') }}
-            </p>
+			</p>
+	        <p class="mb-4">
+	         {{ $t('store.onlineImporttext1') }}
+              </p>
+	        <p class="mb-4">
+	         {{ $t('store.onlineImporttext2') }}
+              </p>
             <div class="flex items-center gap-4">
               <NInput v-model:value="downloadURL" placeholder="" />
               <NButton
