@@ -83,7 +83,7 @@ watch(
         </div>
         <div class="p-4">
           <NButton block @click="show = true">
-            Prompt Store
+            对话模型仓库
           </NButton>
         </div>
       </main>

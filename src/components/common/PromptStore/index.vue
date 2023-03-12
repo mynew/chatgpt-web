@@ -314,6 +314,8 @@ watch(
             </NTabPane>
             <NTabPane name="download" tab="在线导入">
               注意：请检查下载 JSON 文件来源，恶意的JSON文件可能会破坏您的计算机！<br><br>
+	      下载方法：点击下面在线项目的右下角 + 号，会获得地址。然后点击“下载”即可！<br><br>
+	      用法：在聊天框，输入文字的地方使用  /  号，即可选择让人工智能扮演某个角色<br><br>
               <NGrid x-gap="12" y-gap="12" :cols="24">
                 <NGi :span="isMobile ? 18 : 22">
                   <NInput v-model:value="downloadURL" placeholder="请输入正确的 JSON 地址" />
