@@ -73,11 +73,11 @@ watch(
           <NButton dashed block @click="handleAdd">
             <strong>新建一个对话🔊</strong>
           </NButton>
-	          <p>下面是每个会话记录。</p>
+					<p>下面是每个会话记录。</p>
 	          <p>每一个会话可以点击右边的[🖊]编辑会话名字。然后点击右边的[💾]保存。</p>
 	          <p></p>
 	          <p>每一个会话可以点击右边的[🗑]即可删除。</p>
-		  <p>【对话模型仓库】可以让机器人扮演某个角色。</p>
+		        <p>【对话模型仓库】可以让机器人扮演某个角色。</p>
         </div>
         <div class="flex-1 min-h-0 pb-4 overflow-hidden">
           <List />
