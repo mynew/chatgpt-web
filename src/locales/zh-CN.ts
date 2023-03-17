@@ -63,6 +63,7 @@ export default {
     timeout: '超时',
     socks: 'Socks',
     httpsProxy: 'HTTPS Proxy',
+    balance: 'API余额',
   },
   store: {
     local: '本地',
@@ -79,8 +80,6 @@ export default {
     importRepeatTitle: '标题重复跳过：{msg}',
     importRepeatContent: '内容重复跳过：{msg}',
     onlineImportWarning: '注意：请检查 JSON 文件来源！',
-	onlineImporttext1: '下载方法：点击下面在线项目的右下角 + 号，会获得地址。然后点击“下载”即可',
-	onlineImporttext2: '用法：在聊天框，输入文字的地方使用 / 号，即可选择让人工智能扮演某个角色',	      
     downloadError: '请检查网络状态与 JSON 文件有效性',
   },
 }

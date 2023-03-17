@@ -71,7 +71,7 @@ watch(
       <main class="flex flex-col flex-1 min-h-0">
         <div class="p-4">
           <NButton dashed block @click="handleAdd">
-            <strong>新建一个对话🔊</strong>
+            New chat
           </NButton>
 					<p>下面是每个会话记录。</p>
 	          <p>每一个会话可以点击右边的[🖊]编辑会话名字。然后点击右边的[💾]保存。</p>

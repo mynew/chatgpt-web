@@ -416,6 +416,7 @@ const searchOptions = computed(() => {
     return []
   }
 })
+
 // value反渲染key
 const renderOption = (option: { label: string }) => {
   for (const i of promptTemplate.value) {
@@ -474,7 +475,7 @@ onUnmounted(() => {
           <template v-if="!dataSources.length">
             <div class="flex items-center justify-center mt-4 text-center text-neutral-300">
               <SvgIcon icon="ri:bubble-chart-fill" class="mr-2 text-3xl" />
-              <span>可以随时问我一些问题~</span>
+              <span>Aha~</span>
             </div>
           </template>
           <template v-else>
