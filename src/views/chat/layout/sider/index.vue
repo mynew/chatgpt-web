@@ -73,7 +73,7 @@ watch(
       <main class="flex flex-col flex-1 min-h-0">
         <div class="p-4">
           <NButton dashed block @click="handleAdd">
-            {{ $t('chat.newChatButton') }}
+            <strong> {{ $t('chat.newChatButton') }}🔊</strong>
           </NButton>
 					<p>下面是每个会话记录。</p>
 	          <p>每一个会话可以点击右边的[🖊]编辑会话名字。然后点击右边的[💾]保存。</p>
@@ -86,7 +86,7 @@ watch(
         </div>
         <div class="p-4">
           <NButton block @click="show = true">
-	     {{ $t('store.siderButton') }}
+	     <strong>  {{ $t('store.siderButton') }}🔊</strong>
 	     </NButton>
         </div>
       </main>
