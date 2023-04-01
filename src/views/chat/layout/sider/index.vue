@@ -73,20 +73,16 @@ watch(
       <main class="flex flex-col flex-1 min-h-0">
         <div class="p-4">
           <NButton dashed block @click="handleAdd">
-            <strong> {{ $t('chat.newChatButton') }}🔊</strong>
+            {{ $t('chat.newChatButton') }}
           </NButton>
-	          <p>每一个会话可以点击右边的[🖊]编辑会话名字。然后点击右边的[💾]保存。</p>
-	          <p></p>
-	          <p>每一个会话可以点击右边的[🗑]即可删除。</p>
         </div>
         <div class="flex-1 min-h-0 pb-4 overflow-hidden">
           <List />
         </div>
         <div class="p-4">
           <NButton block @click="show = true">
-	     <strong>  {{ $t('store.siderButton') }}🔊</strong>
-	     </NButton>
-	     <p>【提示词商店】可以让机器人扮演某个角色。</p>
+            {{ $t('store.siderButton') }}
+          </NButton>
         </div>
       </main>
       <Footer />
